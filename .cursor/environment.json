@@ -1,0 +1,17 @@
+{
+  "name": "RCGROUP123 Profile README",
+  "install": "./scripts/cloud-agent-install.sh",
+  "terminals": [
+    {
+      "name": "readme-preview",
+      "command": "./scripts/preview-readme.sh",
+      "description": "Live preview server for README.md on port 3000"
+    }
+  ],
+  "ports": [
+    {
+      "name": "readme-preview",
+      "port": 3000
+    }
+  ]
+}

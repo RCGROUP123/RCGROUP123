@@ -1,0 +1,13 @@
+{
+  "name": "rcgroup123-profile",
+  "private": true,
+  "scripts": {
+    "preview": "node scripts/preview-server.js",
+    "lint": "markdownlint README.md"
+  },
+  "devDependencies": {
+    "chokidar": "^4.0.3",
+    "markdown-it": "^14.1.0",
+    "markdownlint-cli": "^0.44.0"
+  }
+}
