@@ -1,6 +1,7 @@
 {
   "name": "RCGROUP123 Profile README",
   "install": "./scripts/cloud-agent-install.sh",
+  "start": "./scripts/cloud-agent-start.sh",
   "terminals": [
     {
       "name": "readme-preview",
