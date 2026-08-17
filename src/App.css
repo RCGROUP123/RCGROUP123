@@ -175,8 +175,7 @@
   background:
     linear-gradient(115deg, rgba(10, 44, 45, 0.55), transparent 48%),
     linear-gradient(180deg, rgba(10, 44, 45, 0.2) 0%, rgba(10, 44, 45, 0.78) 72%, rgba(10, 44, 45, 0.92) 100%),
-    url('https://images.unsplash.com/photo-1488646953017-aa5315639417?auto=format&fit=crop&w=1800&q=80')
-      center / cover no-repeat;
+    url('/hero.jpg') center / cover no-repeat;
   z-index: -2;
 }
 
@@ -541,7 +540,7 @@
   background: var(--harbor);
   color: var(--paper);
   padding: 0.75rem 1.1rem;
-  border-radius: 999px;
+  border-radius: 14px;
   box-shadow: var(--shadow-soft);
   z-index: 20;
   animation: rise-in 220ms ease both;
