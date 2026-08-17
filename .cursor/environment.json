@@ -1,0 +1,11 @@
+{
+  "name": "Itnry",
+  "install": "npm ci",
+  "start": "./scripts/cloud-agent-start.sh",
+  "ports": [
+    {
+      "name": "itnry",
+      "port": 5173
+    }
+  ]
+}
